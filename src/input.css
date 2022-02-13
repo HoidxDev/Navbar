@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ .navbar {
+     position: absolute;
+     right: 1500px;
+     height:100%;
+     top: 56px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width:20%;
+     transform: translateX(-100%);
+     transition: transform 0.5s ease-in;
+ }
+ .navlinks {
+     opacity: 0;
+ }
+ li {
+     opacity: 0;
+ }
+ .navactive {
+     transform: translateX(0);
+ }
+ @keyframes navKey {
+     from {
+         opacity: 0;
+         transform: translateX(50px);
+         }
+     to {
+         opacity: 1;
+         transform: translateX(0px);
+     }
+ }
+ .bir {
+     transform: rotate(-45deg) translate(-5px,6px);
+ }
+ .iki {
+     opacity: 0;
+ }
+ .uc {
+     transform: rotate(45deg) translate(-5px,-6px);
+ }
+ div {
+     transition: all 0.3s ease;
+ }
+ li {
+     font-size: 15px;
+ }
