@@ -20,18 +20,10 @@ Please don't hesitate to share your comments and review about me!
 
 # Installation
 
-**Install dependencies:**
-```
-npm install
-```
 **Compile the code for development and start a local server:**
 ```
 npm run watch
-```
-**Create the build:**
-```
-npm run build                        
-```                        
+```                      
 # Contact me
 
 * [LinkedIn](https://www.linkedin.com/in/davuthan-i%C5%9F%C3%A7i-5b2ba3233/)
